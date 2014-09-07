@@ -2,7 +2,7 @@ module.exports = {
   entry: './lib/index',
   output: {
     filename: 'flight-with-node-properties.js',
-    library: 'FlightWithNodeProperties',
+    library: 'flightWithNodeProperties',
     libraryTarget: 'umd',
     sourcePrefix: ''
   },
