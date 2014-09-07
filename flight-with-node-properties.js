@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define(factory);
 	else if(typeof exports === 'object')
-		exports["FlightWithNodeProperties"] = factory();
+		exports["flightWithNodeProperties"] = factory();
 	else
-		root["FlightWithNodeProperties"] = factory();
+		root["flightWithNodeProperties"] = factory();
 })(this, function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
